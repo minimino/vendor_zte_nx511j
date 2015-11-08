@@ -527,13 +527,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/zte/nx511j/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/zte/nx511j/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
