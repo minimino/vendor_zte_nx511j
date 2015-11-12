@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/zte/nx511j/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/zte/nx511j/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/zte/nx511j/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/zte/nx511j/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -511,6 +513,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/zte/nx511j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/zte/nx511j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/zte/nx511j/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/zte/nx511j/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/zte/nx511j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/zte/nx511j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/zte/nx511j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/zte/nx511j/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/zte/nx511j/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/zte/nx511j/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zte/nx511j/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
@@ -521,12 +531,31 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/zte/nx511j/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zte/nx511j/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/zte/nx511j/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/zte/nx511j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/zte/nx511j/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -535,14 +564,18 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
     vendor/zte/nx511j/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/zte/nx511j/proprietary/bin/perfd:system/bin/perfd \
@@ -615,6 +648,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/zte/nx511j/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/zte/nx511j/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/zte/nx511j/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/zte/nx511j/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/zte/nx511j/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/zte/nx511j/proprietary/etc/srs/dts.lic:system/etc/srs/dts.lic \
@@ -650,7 +684,6 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/zte/nx511j/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/zte/nx511j/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     vendor/zte/nx511j/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/zte/nx511j/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
@@ -661,7 +694,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zte/nx511j/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zte/nx511j/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/zte/nx511j/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zte/nx511j/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/zte/nx511j/proprietary/etc/wfdconfig640_480.xml:system/etc/wfdconfig640_480.xml \
     vendor/zte/nx511j/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
@@ -685,17 +717,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/etc/wfdconfig1280_720.xml:system/etc/wfdconfig1280_720.xml \
     vendor/zte/nx511j/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/zte/nx511j/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
-    vendor/zte/nx511j/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
-    vendor/zte/nx511j/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/zte/nx511j/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko \
     vendor/zte/nx511j/proprietary/bin/qemud:system/bin/qemud \
     vendor/zte/nx511j/proprietary/bin/qemu-props:system/bin/qemu-props \
-    vendor/zte/nx511j/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/zte/nx511j/proprietary/bin/power_engine:system/bin/power_engine \
-    vendor/zte/nx511j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/zte/nx511j/proprietary/bin/akmd09911:system/bin/akmd09911 \
-    vendor/zte/nx511j/proprietary/bin/lowi-server:system/bin/lowi-server \
-    vendor/zte/nx511j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zte/nx511j/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/zte/nx511j/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/zte/nx511j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -703,40 +728,21 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/zte/nx511j/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libsc-a2xx.so:system/vendor/lib64/libsc-a2xx.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libHevcSwDecoder.so:system/vendor/lib64/libHevcSwDecoder.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/zte/nx511j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/zte/nx511j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/zte/nx511j/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so
+    vendor/zte/nx511j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar
 endif
 
