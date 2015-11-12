@@ -93,17 +93,49 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/zte/nx511j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/nx511j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/zte/nx511j/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/zte/nx511j/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/zte/nx511j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/zte/nx511j/proprietary/lib/libmorpho_strobe_photo_jni.so:system/lib/libmorpho_strobe_photo_jni.so \
     vendor/zte/nx511j/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
     vendor/zte/nx511j/proprietary/lib64/libmorpho_jpeg_io.so:system/lib64/libmorpho_jpeg_io.so \
     vendor/zte/nx511j/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/zte/nx511j/proprietary/lib64/libmorpho_image_converter.so:system/lib64/libmorpho_image_converter.so \
+    vendor/zte/nx511j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
+    vendor/zte/nx511j/proprietary/lib64/libmorpho_strobe_photo_jni.so:system/lib64/libmorpho_strobe_photo_jni.so \
     vendor/zte/nx511j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_imx219_q8n13a.so:system/vendor/lib/libmmcamera_imx219_q8n13a.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx179_crop_1080.so:system/vendor/lib/libchromatix_imx179_crop_1080.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_common.so:system/vendor/lib/libchromatix_s5k3m2xm_common.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_liveshot.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_preview.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_snapshot.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx135_liveshot.so:system/vendor/lib64/libchromatix_imx135_liveshot.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx179_crop_1080.so:system/vendor/lib64/libchromatix_imx179_crop_1080.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib64/libchromatix_imx214_snapshot_hdr.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_video_hdr.so:system/vendor/lib64/libchromatix_imx214_video_hdr.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_s5k3m2xm_common.so:system/vendor/lib64/libchromatix_s5k3m2xm_common.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib64/libchromatix_s5k3m2xm_default_video.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_s5k3m2xm_liveshot.so:system/vendor/lib64/libchromatix_s5k3m2xm_liveshot.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_s5k3m2xm_preview.so:system/vendor/lib64/libchromatix_s5k3m2xm_preview.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_s5k3m2xm_snapshot.so:system/vendor/lib64/libchromatix_s5k3m2xm_snapshot.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/zte/nx511j/proprietary/vendor/lib64/libmmcamera_imx214.so:system/vendor/lib64/libmmcamera_imx214.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov9724_liveshot.so:system/vendor/lib/libchromatix_ov9724_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_common.so:system/vendor/lib/libchromatix_ov5648_p5v18g_common.so \
@@ -119,24 +151,18 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz.so:system/vendor/lib/libactuator_rohm_bu64297gwz.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_preview.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_t4k35.so:system/vendor/lib/libmmcamera_t4k35.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib/libchromatix_ov8858_q8v19w_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:system/vendor/lib/libchromatix_ov16825_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_imx214_sunny_c1507.so:system/vendor/lib/libactuator_imx214_sunny_c1507.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3l1yx_preview.so:system/vendor/lib/libchromatix_s5k3l1yx_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_imx179_mcnex_eeprom.so:system/vendor/lib/libmmcamera_imx179_mcnex_eeprom.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_imx214_sunny_c1507_camera.so:system/vendor/lib/libactuator_imx214_sunny_c1507_camera.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_snapshot.so:system/vendor/lib/libchromatix_imx234_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_t4k37_qtech_f4k37ab.so:system/vendor/lib/libmmcamera_t4k37_qtech_f4k37ab.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
@@ -155,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_S5K4E1_13P1BA.so:system/vendor/lib/libmmcamera_S5K4E1_13P1BA.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_camera.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_nightmode_1.so:system/vendor/lib/libchromatix_t4k35_nightmode_1.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
@@ -169,7 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_common.so:system/vendor/lib/libchromatix_t4k35_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -195,15 +219,12 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_bu64291gwz_t4k35.so:system/vendor/lib/libactuator_bu64291gwz_t4k35.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_preview.so:system/vendor/lib/libchromatix_t4k35_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov9724_default_video.so:system/vendor/lib/libchromatix_ov9724_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_hfr_120.so:system/vendor/lib/libchromatix_t4k35_hfr_120.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
@@ -225,30 +246,24 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_preview4zsl.so:system/vendor/lib/libchromatix_imx214_preview4zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:system/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_iu074.so:system/vendor/lib/libactuator_iu074.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_snapshot.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_hfr_90fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so:system/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_nightmode.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_nightmode.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3l1yx_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov7695.so:system/vendor/lib/libmmcamera_ov7695.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_bu64291gwz_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov2680_common.so:system/vendor/lib/libchromatix_ov2680_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_common.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_default_video.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_hfr_90fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:system/vendor/lib/libactuator_dw9714_13p1ba.so \
@@ -256,52 +271,36 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_video_hd.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_video_hd.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_nightmode.so:system/vendor/lib/libchromatix_imx214_nightmode.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_bu64291gwz_camera.so:system/vendor/lib/libactuator_bu64291gwz_camera.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_default_video.so:system/vendor/lib/libchromatix_t4k35_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_hfr_60fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_imx219_sunny_c1507_camera.so:system/vendor/lib/libactuator_imx219_sunny_c1507_camera.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:system/vendor/lib/libactuator_ov12830_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9714_q13v04b.so:system/vendor/lib/libactuator_dw9714_q13v04b.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx219_q8n13a_common.so:system/vendor/lib/libchromatix_imx219_q8n13a_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_bu64291gwz_t4k35_camcorder.so:system/vendor/lib/libactuator_bu64291gwz_t4k35_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_a3907.so:system/vendor/lib/libactuator_a3907.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64297gwz_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_preview.so:system/vendor/lib/libchromatix_ov5648_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_default_video_4k.so:system/vendor/lib/libchromatix_imx214_default_video_4k.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov5648.so:system/vendor/lib/libmmcamera_ov5648.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_nightmode_1.so:system/vendor/lib/libchromatix_imx214_nightmode_1.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov5648_p5v18g.so:system/vendor/lib/libmmcamera_ov5648_p5v18g.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_preview.so:system/vendor/lib/libchromatix_ov5648_q5v22e_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib/libchromatix_imx219_q8n13a_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:system/vendor/lib/libchromatix_ov8825_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_common.so:system/vendor/lib/libchromatix_ov8858_q8v19w_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_snapshot.so:system/vendor/lib/libchromatix_t4k35_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_liveshot.so:system/vendor/lib/libchromatix_imx234_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_hfr_60fps.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_imx219_sunny_c1507.so:system/vendor/lib/libactuator_imx219_sunny_c1507.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_preview.so:system/vendor/lib/libchromatix_ov5648_p5v18g_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:system/vendor/lib/libchromatix_ov8825_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_hfr_120.so:system/vendor/lib/libchromatix_imx234_hfr_120.so \
@@ -320,14 +319,11 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode_1.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_hfr_120.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_hfr_120.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:system/vendor/lib/libchromatix_imx214_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k35_nightmode.so:system/vendor/lib/libchromatix_t4k35_nightmode.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_common.so:system/vendor/lib/libchromatix_ov5648_q5v22e_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_imx214_sunny_c1507_camcorder.so:system/vendor/lib/libactuator_imx214_sunny_c1507_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_snapshot_nightmode.so:system/vendor/lib/libchromatix_imx234_snapshot_nightmode.so \
@@ -350,7 +346,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_q5v22e_default_video_hd.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_common.so:system/vendor/lib/libchromatix_ov5648_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_ov12830.so:system/vendor/lib/libactuator_ov12830.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_common.so:system/vendor/lib/libchromatix_imx234_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
@@ -369,7 +364,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib/libchromatix_imx219_q8n13a_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so:system/vendor/lib/libchromatix_ov5648_p5v18g_default_video_hd.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx234_default_video.so:system/vendor/lib/libchromatix_imx234_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
@@ -377,10 +371,8 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_liveshot.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_default_video.so:system/vendor/lib/libchromatix_ov5648_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_a3907_camcorder.so:system/vendor/lib/libactuator_a3907_camcorder.so \
@@ -395,12 +387,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov16825_preview.so:system/vendor/lib/libchromatix_ov16825_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_p5v18g_zsl.so:system/vendor/lib/libchromatix_ov5648_p5v18g_zsl.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_imx219_sunny_c1507_camcorder.so:system/vendor/lib/libactuator_imx219_sunny_c1507_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w.so:system/vendor/lib/libmmcamera_ov8858_q8v19w.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_snapshot.so:system/vendor/lib/libchromatix_ov5648_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so \
@@ -422,7 +412,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e.so:system/vendor/lib/libmmcamera_ov5648_q5v22e.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libactuator_bu64291gwz_t4k35_camera.so:system/vendor/lib/libactuator_bu64291gwz_t4k35_camera.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so:system/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so \
@@ -432,20 +421,16 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_pre4zsl.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_pre4zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov9724_common.so:system/vendor/lib/libchromatix_ov9724_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_default_video.so:system/vendor/lib/libchromatix_ov5648_q5v22e_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
-    vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_nightmode_1.so:system/vendor/lib/libchromatix_t4k37_qtech_f4k37ab_nightmode_1.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libmmcamera_imx219_q8n13a.so:system/vendor/lib64/libmmcamera_imx219_q8n13a.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libactuator_rohm_bu64297gwz.so:system/vendor/lib64/libactuator_rohm_bu64297gwz.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov16825_default_video.so:system/vendor/lib64/libchromatix_ov16825_default_video.so \
@@ -462,24 +447,16 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_common.so:system/vendor/lib64/libchromatix_ov8858_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_liveshot.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_preview4zsl.so:system/vendor/lib64/libchromatix_imx214_preview4zsl.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_hfr_90fps.so:system/vendor/lib64/libchromatix_imx214_hfr_90fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libmmcamera_ov16825.so:system/vendor/lib64/libmmcamera_ov16825.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libmmcamera_ov7695.so:system/vendor/lib64/libmmcamera_ov7695.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_120fps.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_default_video.so:system/vendor/lib64/libchromatix_ov8858_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_common.so:system/vendor/lib64/libchromatix_imx214_common.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_nightmode.so:system/vendor/lib64/libchromatix_imx214_nightmode.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_hfr_60fps.so:system/vendor/lib64/libchromatix_imx214_hfr_60fps.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_common.so:system/vendor/lib64/libchromatix_imx219_q8n13a_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libactuator_rohm_bu64297gwz_camcorder.so:system/vendor/lib64/libactuator_rohm_bu64297gwz_camcorder.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_default_video_4k.so:system/vendor/lib64/libchromatix_imx214_default_video_4k.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_nightmode_1.so:system/vendor/lib64/libchromatix_imx214_nightmode_1.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib64/libchromatix_imx219_q8n13a_default_video.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib64/libchromatix_imx219_q8n13a_liveshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_common.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx234_liveshot.so:system/vendor/lib64/libchromatix_imx234_liveshot.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib64/libchromatix_imx219_q8n13a_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx234_hfr_120.so:system/vendor/lib64/libchromatix_imx234_hfr_120.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov16825_common.so:system/vendor/lib64/libchromatix_ov16825_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx214_snapshot.so:system/vendor/lib64/libchromatix_imx214_snapshot.so \
@@ -493,7 +470,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx234_common.so:system/vendor/lib64/libchromatix_imx234_common.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_snapshot.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
-    vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib64/libchromatix_imx219_q8n13a_preview.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_imx234_default_video.so:system/vendor/lib64/libchromatix_imx234_default_video.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/zte/nx511j/proprietary/vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib64/libchromatix_ov8858_q8v19w_zsl.so \

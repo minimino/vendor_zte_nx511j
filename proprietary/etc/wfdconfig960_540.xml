@@ -29,7 +29,7 @@
 	   <VideoHeader>
 		<VideoMethod>1</VideoMethod>
 		 <PreferredDisplaySupport>0</PreferredDisplaySupport>
-		 <H264Profiles>1</H264Profiles>
+		 <H264Profiles>2</H264Profiles>
 		<Valid>1</Valid>
 	  </VideoHeader>
 <CBP>
@@ -45,6 +45,21 @@
 		<VideoFps>30</VideoFps>
 	  </VideoCodec>
 </CBP>
+<CHP>
+	  <VideoCodec>
+		<Profile>2</Profile>
+		<Level>4</Level>
+		<HorizontalResolution>960</HorizontalResolution>
+		<VerticalResolution>540</VerticalResolution>
+		<Latency>0</Latency>
+		<MinimumSliceSize>0</MinimumSliceSize>
+		<SliceEncodingParams>0</SliceEncodingParams>
+		<FrameRateControlSupp>1</FrameRateControlSupp>
+		<VideoFps>30</VideoFps>
+	  </VideoCodec>
+</CHP>
+
+
 	  <StandbyResumeCapability>
 		<Valid>1</Valid>
 	  </StandbyResumeCapability>
@@ -79,7 +94,7 @@
 	  </RTPDumpEnable>
 
     <UIBC>
-      <UIBCValid>1</UIBCValid>                <!-- 0/1 UIBC supported or not -->
+      <UIBCValid>1</UIBCValid>                <!-- 0/1 UIBC supported or not modify by ztemt to enable uibc -->
       <M14Support>0</M14Support>        <!-- 0/1 M14 supported or not -->
       <InputCategory>
         <Generic>1</Generic>            <!-- 0/1 - support generic or not -->
@@ -163,7 +178,7 @@
 			</BIT4>
 			<BIT5>
 				<MinBitrate>2500000</MinBitrate>
-				<MaxBitrate>5000000</MaxBitrate>
+				<MaxBitrate>10000000</MaxBitrate>
 			</BIT5>
 			<BIT6>
 				<MinBitrate>5000000</MinBitrate>
@@ -203,7 +218,7 @@
 			</BIT14>
 			<BIT15>
 				<MinBitrate>2500000</MinBitrate>
-				<MaxBitrate>5000000</MaxBitrate>
+				<MaxBitrate>10000000</MaxBitrate>
 			</BIT15>
 			<BIT16>
 				<MinBitrate>5000000</MinBitrate>
@@ -407,7 +422,7 @@
 
     <!-- To change encoder configurations  -->
     <DynamicEncoderConfig>
-        <NarrowSearchRange>1</NarrowSearchRange>
+        <NarrowSearchRange>0</NarrowSearchRange>
     </DynamicEncoderConfig>
 
 </WFDConfig>
