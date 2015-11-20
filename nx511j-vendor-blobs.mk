@@ -697,7 +697,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/zte/nx511j/proprietary/etc/wfdconfig640_480.xml:system/etc/wfdconfig640_480.xml \
     vendor/zte/nx511j/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
-    vendor/zte/nx511j/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
     vendor/zte/nx511j/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
     vendor/zte/nx511j/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/zte/nx511j/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
@@ -722,6 +721,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/bin/qemu-props:system/bin/qemu-props \
     vendor/zte/nx511j/proprietary/bin/power_engine:system/bin/power_engine \
     vendor/zte/nx511j/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/zte/nx511j/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
+    vendor/zte/nx511j/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
+    vendor/zte/nx511j/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/zte/nx511j/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/zte/nx511j/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/zte/nx511j/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
