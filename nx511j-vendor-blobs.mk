@@ -105,6 +105,21 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/zte/nx511j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
+    vendor/zte/nx511j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
+    vendor/zte/nx511j/proprietary/lib/libnubia_trajectory.so:system/lib/libnubia_trajectory.so \
+    vendor/zte/nx511j/proprietary/lib/libmmcamera_nubiacustpro.so:system/lib/libmmcamera_nubiacustpro.so \
+    vendor/zte/nx511j/proprietary/lib/libAlgorithm.so:system/lib/libAlgorithm.so \
+    vendor/zte/nx511j/proprietary/lib/libnubia_servers.so:system/lib/libnubia_servers.so \
+    vendor/zte/nx511j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
+    vendor/zte/nx511j/proprietary/lib/libobjectclear.so:system/lib/libobjectclear.so \
+    vendor/zte/nx511j/proprietary/lib64/libobjectclear_nubia.so:system/lib64/libobjectclear_nubia.so \
+    vendor/zte/nx511j/proprietary/lib64/libnubia_media_player.so:system/lib64/libnubia_media_player.so \
+    vendor/zte/nx511j/proprietary/lib64/libnubia_runtime.so:system/lib64/libnubia_runtime.so \
+    vendor/zte/nx511j/proprietary/lib64/libnubia_trajectory.so:system/lib64/libnubia_trajectory.so \
+    vendor/zte/nx511j/proprietary/lib64/libAlgorithm.so:system/lib64/libAlgorithm.so \
+    vendor/zte/nx511j/proprietary/lib64/libnubia_servers.so:system/lib64/libnubia_servers.so \
+    vendor/zte/nx511j/proprietary/lib64/libobjectclear.so:system/lib64/libobjectclear.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
     vendor/zte/nx511j/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
