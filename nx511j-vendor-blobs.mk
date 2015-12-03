@@ -105,6 +105,14 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/zte/nx511j/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/zte/nx511j/proprietary/bin/cnd:system/bin/cnd \
+    vendor/zte/nx511j/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/zte/nx511j/proprietary/bin/dmapp:system/bin/dmapp \
+    vendor/zte/nx511j/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/zte/nx511j/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
+    vendor/zte/nx511j/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/zte/nx511j/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/zte/nx511j/proprietary/lib/libobjectclear_nubia.so:system/lib/libobjectclear_nubia.so \
     vendor/zte/nx511j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
     vendor/zte/nx511j/proprietary/lib/libnubia_trajectory.so:system/lib/libnubia_trajectory.so \
