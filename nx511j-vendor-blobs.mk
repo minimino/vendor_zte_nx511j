@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx511j/proprietary/lib64/libmorpho_image_converter.so:system/lib64/libmorpho_image_converter.so \
     vendor/zte/nx511j/proprietary/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     vendor/zte/nx511j/proprietary/lib64/libmorpho_strobe_photo_jni.so:system/lib64/libmorpho_strobe_photo_jni.so \
+    vendor/zte/nx511j/proprietary/lib64/libFNVfbEngineLib.so:system/lib64/libFNVfbEngineLib.so \
     vendor/zte/nx511j/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/zte/nx511j/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
